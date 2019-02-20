@@ -1,0 +1,28 @@
+{
+  "name": "bitmotion/static-info-tables-uk",
+  "description": "Ukrain (uk) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Florian Wessels",
+      "role": "Developer",
+      "email": "typo3-ext@bitmotion.de",
+      "homepage": "https://www.bitmotion.de"
+    }
+  ],
+  "replace": {
+    "bitmotion/static-info-tables-uk": "self.version",
+    "typo3-ter/static-info-tables-uk": "self.version"
+  },
+  "require": {
+    "php": ">=7.0",
+    "typo3/cms-core": "^8.7 || ^9.5",
+    "sjbr/static-info-tables": "^6.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bitmotion\\StaticInfoTablesUk\\": "Classes/"
+    }
+  }
+}
