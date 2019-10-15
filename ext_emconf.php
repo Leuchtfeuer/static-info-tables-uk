@@ -2,7 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Static Info Tables (uk)',
-    'description' => 'Ukrain (uk) language pack for the Static Info Tables providing localized names for countries.',
+    'description' => 'Ukrainian (uk) language pack for the Static Info Tables providing localized names for countries.',
     'category' => 'misc',
     'version' => '6.7.0',
     'state' => 'stable',
