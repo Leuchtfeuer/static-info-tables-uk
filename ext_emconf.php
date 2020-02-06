@@ -1,6 +1,6 @@
 <?php
 
-$EM_CONF[$_EXTKEY] = [
+$EM_CONF['static_info_tables_uk'] = [
     'title' => 'Static Info Tables (uk)',
     'description' => 'Ukrainian (uk) language pack for the Static Info Tables providing localized names for countries.',
     'category' => 'misc',
@@ -14,8 +14,8 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'Bitmotion GmbH',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.0-9.5.99',
-            'php' => '7.0.0-0.0.0',
+            'typo3' => '8.7.0-10.2.99',
+            'php' => '7.0.0-7.4.99',
             'static_info_tables' => '6.7.0-6.7.99',
         ],
         'conflicts' => [],
