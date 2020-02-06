@@ -11,7 +11,10 @@ class Language extends AbstractEntity
         return $this->nameUk;
     }
 
-    public function setNameUk(string $nameUk): void
+    /**
+     * @param string $nameUk
+     */
+    public function setNameUk(string $nameUk)
     {
         $this->nameUk = $nameUk;
     }

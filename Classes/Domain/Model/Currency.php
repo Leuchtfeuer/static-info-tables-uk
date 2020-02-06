@@ -13,7 +13,10 @@ class Currency extends AbstractEntity
         return $this->nameUk;
     }
 
-    public function setNameUk(string $nameUk): void
+    /**
+     * @param string $nameUk
+     */
+    public function setNameUk(string $nameUk)
     {
         $this->nameUk = $nameUk;
     }
@@ -23,7 +26,10 @@ class Currency extends AbstractEntity
         return $this->subdivisionNameUk;
     }
 
-    public function setSubdivisionNameUk(string $subdivisionNameUk): void
+    /**
+     * @param string $subdivisionNameUk
+     */
+    public function setSubdivisionNameUk(string $subdivisionNameUk)
     {
         $this->subdivisionNameUk = $subdivisionNameUk;
     }
